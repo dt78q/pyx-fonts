@@ -1,2 +1,3 @@
-# pyx-fonts
-Set of proportional sans-serif bitmap fonts with the basic ASCII characters for MicroPython 
+# MicroPython fonts
+Pyx is a set of bitmap fonts that are straightforward to use on displays running MicroPython. There are seven proportional (varying-width) sans-serif fonts with the basic ASCII 32-126 character set (plus the degree symbol) and x-heights of 8, 9, 10, 11, 12, 13 & 15 pixels with some larger sets of numerals at 18, 21 & 24 pixels. The examples here are set up for the Waveshare LCD displays but should be easily adaptable.  
+The function 'graf()' writes the text to a screen. It has an argument set that includes a basic overwrite, a fixed width option (for numerals), and foreground and background colours with global colour settings. It has tracking and space width adjustments. Currently there are no options for text alignment or word wrap. 'graf0()' is a minimal version that has all the options removed.
