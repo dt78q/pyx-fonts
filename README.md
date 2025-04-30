@@ -13,7 +13,7 @@ To be memory efficient, each font is encoded as a single tuple of hex strings (o
 + Overwrite simply writes a filled rectangle of background colour, the size of the maximum text height, from the start of the new text over the length in pixels defined by the value passed.
 + Fixed width is intended only for numeric display where a static character position is preferred.
 + Pyx outlines are based on Deja Vu but have been extensively redrawn.
-+ Acknowledgements to Les Wright, Tony Goodhew and others.  
++ Acknowledgements to Les Wright, Tony Goodhew and others:  
 https://github.com/leswright1977/picofont  
 https://thepihut.com/blogs/raspberry-pi-tutorials/advanced-text-with-micropython-on-raspberry-pi-pico-displays  
 Peter Hinch has more advanced screen and font methods and also provides a 4-bit LCD driver that uses only a fraction of the memory used by the Waveshare drivers.
